@@ -1,0 +1,16 @@
+# Database dibuat ulang lewat init_db.py, tidak perlu di-commit
+library.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — jangan pernah commit API key / token
+.env
+.streamlit/secrets.toml
+
+# Jupyter / Colab
+.ipynb_checkpoints/
